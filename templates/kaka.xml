@@ -1,0 +1,10 @@
+<templateSet group="kaka">
+  <template name="log" value="console.log('$className$ $methodName$ $clip$ $END$', $clip$)" description="test" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
