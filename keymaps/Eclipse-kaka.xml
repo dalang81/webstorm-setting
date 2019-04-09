@@ -1,0 +1,13 @@
+<keymap version="1" name="Eclipse-kaka" parent="Eclipse">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="CopyReference" />
+  <action id="PublishGroup.UploadTo" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
+  <action id="UpdateFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+</keymap>
