@@ -1,0 +1,16 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="CopyReference" />
+  <action id="PublishGroup.UploadTo" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+</keymap>
