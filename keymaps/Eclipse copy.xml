@@ -4,6 +4,9 @@
   </action>
   <action id="CopyReference" />
   <action id="PublishGroup.UploadTo" />
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="r" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
   </action>
