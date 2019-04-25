@@ -1,3 +1,50 @@
 <keymap version="1" name="Eclipse copy" parent="Eclipse">
-  <action id="EditorToggleColumnMode" />
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="CopyReference" />
+  <action id="DumpLookupElementWeights" />
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="MethodHierarchy" />
+  <action id="PublishGroup.UploadTo" />
+  <action id="ReformatWithPrettierAction" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f2" />
+  </action>
+  <action id="Stop" />
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
+  <action id="ToggleBookmarkWithMnemonic">
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="p" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
 </keymap>
