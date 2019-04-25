@@ -1,0 +1,15 @@
+<list display="Deployment" description="Deployment actions">
+  <action id="PublishGroup.Upload" />
+  <action id="PublishGroup.UploadTo" />
+  <action id="PublishGroup.Download" />
+  <action id="PublishGroup.DownloadFrom" />
+  <action id="PublishGroup.CompareLocalVsRemote" />
+  <action id="OpenInBrowser" />
+  <action id="SelectInRemoteHost" />
+  <action id="WebDeployment.BrowseServers" />
+  <action id="RemoteHostView.CreateFolder" />
+  <action id="WebDeployment.Configuration" />
+  <action id="QuickList.$Separator$" />
+  <action id="RemoteHostView.SetPermissions" />
+  <action id="QuickList.$Separator$" />
+</list>
