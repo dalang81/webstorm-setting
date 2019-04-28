@@ -10,9 +10,6 @@
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
-  <action id="ExportSettings">
-    <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
-  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -52,5 +49,8 @@
   </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+  <action id="WelcomeScreen.Configure.Export">
+    <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
   </action>
 </keymap>
