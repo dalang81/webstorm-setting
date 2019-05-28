@@ -6,7 +6,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>7</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
@@ -15,6 +15,14 @@
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Restore Windows">
+        <Item>
+          <IdeaActionID>HideAllWindows</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F12'</ShortCut>
+          <Description>Restore Windows</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'service'">
@@ -31,6 +39,14 @@
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Toggle Line Breakpoint">
+        <Item>
+          <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+B' or 'Ctrl+F8'</ShortCut>
+          <Description>Toggle Line Breakpoint</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
     </option>
