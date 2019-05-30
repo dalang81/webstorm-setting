@@ -30,7 +30,7 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Restore Windows</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -47,6 +47,14 @@
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Synchronize 'envhygiene'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'envhygiene'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'service'">
