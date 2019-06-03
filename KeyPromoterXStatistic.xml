@@ -14,7 +14,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>97</Count>
+          <Count>98</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -54,6 +54,14 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Synchronize 'EnvhygieneDept.jsx'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'EnvhygieneDept.jsx'</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
