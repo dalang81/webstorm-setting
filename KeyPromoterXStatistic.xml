@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>140</Count>
+          <Count>144</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -71,6 +71,14 @@
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Switch Task...">
+        <Item>
+          <IdeaActionID>tasks.switch</IdeaActionID>
+          <ShortCut>'Alt+Shift+T'</ShortCut>
+          <Description>Switch Task...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'EnvhygieneDept.jsx'">
