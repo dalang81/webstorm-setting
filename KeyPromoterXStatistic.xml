@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>149</Count>
+          <Count>154</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
