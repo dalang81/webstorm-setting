@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>189</Count>
+          <Count>192</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -54,7 +54,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>12</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Restore Windows">
@@ -94,7 +94,7 @@
           <IdeaActionID>tasks.switch</IdeaActionID>
           <ShortCut>'Alt+Shift+T'</ShortCut>
           <Description>Switch Task...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'EnvhygieneDept.jsx'">
