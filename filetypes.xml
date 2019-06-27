@@ -1,9 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="ELSelector.jsx" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
+      <mapping pattern="ELSelect" type="TypeScript" />
       <mapping pattern="NursingOrderTable.js" type="TypeScript" />
     </extensionMap>
   </component>

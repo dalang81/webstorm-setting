@@ -2,6 +2,9 @@
   <action id="ActivateKeyPromoterXToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="x" />
   </action>
+  <action id="AssociateWithFileType">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
