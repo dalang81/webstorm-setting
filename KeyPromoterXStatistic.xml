@@ -145,6 +145,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Synchronize 'client'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'client'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Synchronize 'common'">
         <Item>
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
