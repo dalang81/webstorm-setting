@@ -30,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>321</Count>
+          <Count>322</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -102,7 +102,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'app.js'</Description>
-          <Count>7</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -191,6 +191,14 @@
           <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
           <Description>Synchronize 'lib'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Synchronize 'node_modules'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'node_modules'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'report'">
