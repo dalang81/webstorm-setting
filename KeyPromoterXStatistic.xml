@@ -30,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>315</Count>
+          <Count>318</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -182,6 +182,14 @@
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
           <Description>Synchronize 'lib'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Synchronize 'report'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'report'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
