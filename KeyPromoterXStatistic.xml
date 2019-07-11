@@ -30,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>329</Count>
+          <Count>331</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -49,12 +49,20 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Hierarchy">
+        <Item>
+          <IdeaActionID>ActivateHierarchyToolWindow</IdeaActionID>
+          <ShortCut>'Alt+8'</ShortCut>
+          <Description>Hierarchy</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Key Promoter X">
         <Item>
           <IdeaActionID>ActivateKeyPromoterXToolWindow</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+Q, X'</ShortCut>
           <Description>Key Promoter X</Description>
-          <Count>3</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
