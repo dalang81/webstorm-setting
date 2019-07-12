@@ -70,7 +70,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>20</Count>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -214,7 +214,7 @@
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
           <Description>Synchronize 'report'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'service'">
