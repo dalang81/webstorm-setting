@@ -30,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>408</Count>
+          <Count>409</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -111,6 +111,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'app.js'</Description>
           <Count>11</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'picu-dev'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Alt+Shift+X' or 'Shift+F10'</ShortCut>
+          <Description>Run 'picu-dev'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
