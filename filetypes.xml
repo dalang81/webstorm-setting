@@ -5,6 +5,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ELSelector.jsx" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
       <mapping pattern="ELSelect" type="TypeScript" />
       <mapping pattern="NursingOrderTable.js" type="TypeScript" />
     </extensionMap>
