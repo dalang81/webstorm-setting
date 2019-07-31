@@ -238,7 +238,7 @@
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
           <Description>Synchronize 'entries'</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'envhygiene'">
