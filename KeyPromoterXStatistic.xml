@@ -225,6 +225,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Synchronize 'components'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'components'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Synchronize 'dict'">
         <Item>
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
