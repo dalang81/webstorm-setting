@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>683</Count>
+          <Count>684</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
