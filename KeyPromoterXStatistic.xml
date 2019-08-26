@@ -294,7 +294,7 @@
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
           <Description>Synchronize 'login'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize 'message'">
