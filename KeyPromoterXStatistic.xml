@@ -345,6 +345,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Synchronize 'runarch'">
+        <Item>
+          <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+W'</ShortCut>
+          <Description>Synchronize 'runarch'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Synchronize 'searchformitem'">
         <Item>
           <IdeaActionID>SynchronizeCurrentFile</IdeaActionID>
