@@ -16,8 +16,11 @@
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
     </context>
   </template>
 </templateSet>
