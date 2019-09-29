@@ -5,6 +5,7 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
   </JSCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
   </TypeScriptCodeStyleSettings>
 </code_scheme>
