@@ -9,6 +9,7 @@
       <mapping pattern="ELSelect" type="TypeScript" />
       <mapping pattern="TranslateConfigJson2CSV.ts" type="TypeScript" />
       <mapping pattern="NursingOrderTable.js" type="TypeScript" />
+      <mapping ext="bak" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
