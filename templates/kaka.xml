@@ -28,4 +28,16 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="eslint_disable" value="/* eslint-disable */" description="eslint disable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="eslint_enable" value="/* eslint-enable */" description="eslint_enable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
