@@ -23,7 +23,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="tsignore" value="// @ts-ignore" toReformat="false" toShortenFQNames="true">
+  <template name="tsignore" value="// @ts-ignore" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
