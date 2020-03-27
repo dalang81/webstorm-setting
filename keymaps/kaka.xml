@@ -1,4 +1,7 @@
 <keymap version="1" name="kaka" parent="Eclipse">
+  <action id="ActivateDockerToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
   <action id="ActivateKeyPromoterXToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="x" />
   </action>
@@ -13,14 +16,53 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="CopyReference" />
   <action id="Diagram.DeselectAll" />
   <action id="DumpLookupElementWeights" />
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="GotoBookmark8" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="MethodHierarchy" />
   <action id="PublishGroup.UploadTo" />
