@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="ELSelector.jsx" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
