@@ -40,4 +40,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="logTable" value="console.log('$className$ $methodName$ $clip$ ');&#10;console.table($clip$ $END$);" description="logTable" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
