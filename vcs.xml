@@ -6,6 +6,10 @@
           <option name="url" value="http://git.ngrok.lilian-info.com:4441" />
           <option name="userName" value="wukai1981@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.lilianinfo.com" />
+          <option name="userName" value="wukai@lilianinfo.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
