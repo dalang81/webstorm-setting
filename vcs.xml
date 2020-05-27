@@ -14,6 +14,10 @@
           <option name="url" value="http://git.lilianinfo.com:10080" />
           <option name="userName" value="wukai@lilianinfo.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="wukai1981@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
