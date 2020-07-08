@@ -19,9 +19,11 @@
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
-  <action id="ChangesView.Revert" />
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="r" />
+  </action>
   <action id="CheckinFiles">
-    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="c" />
   </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
@@ -117,6 +119,6 @@
   </action>
   <action id="Vcs.RollbackChangedLines" />
   <action id="Vcs.UpdateProject">
-    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="l" />
   </action>
 </keymap>
