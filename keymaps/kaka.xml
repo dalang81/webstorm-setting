@@ -72,6 +72,15 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="ExtractClass">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="d" />
+  </action>
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="m" />
+  </action>
+  <action id="ExtractSuperclass">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="s" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -81,6 +90,21 @@
   </action>
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="i" />
+  </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="c" />
+  </action>
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="f" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="p" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="v" />
   </action>
   <action id="MarkExcludeRoot">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
