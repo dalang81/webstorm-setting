@@ -106,6 +106,9 @@
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="v" />
   </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" second-keystroke="delete" />
+  </action>
   <action id="MarkExcludeRoot">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
   </action>
