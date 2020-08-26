@@ -15,6 +15,9 @@
   <action id="AssociateWithFileType">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="c" />
+  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
@@ -113,6 +116,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
   </action>
   <action id="MethodHierarchy" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="d" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="r" />
+  </action>
   <action id="PublishGroup.UploadTo" />
   <action id="ReformatWithPrettierAction" />
   <action id="Replace">
@@ -131,15 +140,27 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ShowSettings" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="v" />
+  </action>
   <action id="Stop" />
   <action id="SynchronizeCurrentFile">
-    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
   <action id="ToggleBookmarkWithMnemonic">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="u" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="a" />
   </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="p" />
