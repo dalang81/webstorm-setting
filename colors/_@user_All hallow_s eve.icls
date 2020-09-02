@@ -3,7 +3,7 @@
     <property name="created">2020-08-29T21:52:38</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.1.0.0</property>
-    <property name="modified">2020-08-30T21:23:46</property>
+    <property name="modified">2020-09-03T07:28:01</property>
     <property name="originalScheme">All hallow's eve</property>
   </metaInfo>
   <colors>
@@ -404,14 +404,14 @@
         <option name="FOREGROUND" value="c83730" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="" />
+    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="" />
-    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="" />
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
     <option name="DEFAULT_KEYWORD">
       <value>
@@ -423,7 +423,7 @@
         <option name="FOREGROUND" value="9933cc" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="" />
+    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="3387cc" />
@@ -446,7 +446,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_METHOD" baseAttributes="" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="66cc33" />
@@ -742,7 +742,7 @@
         <option name="BACKGROUND" value="434242" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="" />
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="66cc33" />
@@ -760,7 +760,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="HTML_TAG" baseAttributes="" />
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
         <option name="EFFECT_COLOR" value="ffffff" />
@@ -834,8 +834,8 @@
         <option name="FOREGROUND" value="66cc33" />
       </value>
     </option>
-    <option name="JADE_FILTER_NAME" baseAttributes="" />
-    <option name="JADE_JS_BLOCK" baseAttributes="" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JADE_STATEMENTS">
       <value>
         <option name="FOREGROUND" value="cc7833" />
@@ -904,8 +904,8 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -932,7 +932,7 @@
         <option name="BACKGROUND" value="0" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="" />
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a6da0" />
@@ -1467,7 +1467,7 @@
         <option name="BACKGROUND" value="623062" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="66cc33" />
@@ -1483,7 +1483,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="XML_TAG" baseAttributes="" />
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_DATA">
       <value>
         <option name="FONT_TYPE" value="1" />
