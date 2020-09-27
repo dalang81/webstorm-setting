@@ -3,7 +3,7 @@
     <property name="created">2020-08-29T21:52:38</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.1.0.0</property>
-    <property name="modified">2020-09-27T15:11:44</property>
+    <property name="modified">2020-09-27T16:42:41</property>
     <property name="originalScheme">Blackboard</property>
   </metaInfo>
   <colors>
@@ -281,7 +281,7 @@
         <option name="FOREGROUND" value="ff6400" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
+    <option name="CSS.URL" baseAttributes="" />
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="68e868" />
@@ -935,7 +935,7 @@
         <option name="FOREGROUND" value="fbde2d" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="LESS_VARIABLE" baseAttributes="" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="ff6400" />
@@ -1351,7 +1351,7 @@
         <option name="FOREGROUND" value="8da6ce" />
       </value>
     </option>
-    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="SASS_VARIABLE" baseAttributes="" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="4f4f82" />
