@@ -126,6 +126,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="r" />
   </action>
   <action id="PublishGroup.UploadTo" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="t" />
+  </action>
   <action id="ReformatWithPrettierAction" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt f" />
@@ -171,5 +174,23 @@
   <action id="Vcs.RollbackChangedLines" />
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="l" />
+  </action>
+  <action id="tasks.close">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="r" />
+  </action>
+  <action id="tasks.create.changelist">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="c" />
+  </action>
+  <action id="tasks.edit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="e" />
+  </action>
+  <action id="tasks.goto">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="o" />
+  </action>
+  <action id="tasks.open.in.browser">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="b" />
+  </action>
+  <action id="tasks.switch">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="s" />
   </action>
 </keymap>
