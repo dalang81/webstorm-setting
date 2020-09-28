@@ -3,7 +3,7 @@
     <property name="created">2020-08-29T21:52:38</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.1.0.0</property>
-    <property name="modified">2020-08-30T21:23:47</property>
+    <property name="modified">2020-09-27T15:11:45</property>
     <property name="originalScheme">VibrantInk</property>
   </metaInfo>
   <colors>
@@ -474,7 +474,7 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="" />
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
@@ -519,7 +519,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="339999" />
@@ -918,7 +918,7 @@
     <option name="JS.COMMA">
       <value />
     </option>
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="979748" />
