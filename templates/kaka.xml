@@ -48,4 +48,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="initModel" value="const NAME_SPEACE = '$name$';&#10; &#10;const init = () =&gt; ({&#10;   $END$ &#10;});&#10;&#10;const Model = {&#10;  namespace: NAME_SPEACE,&#10;  state: {...init()},&#10;&#10;  effects: {},&#10;&#10;  reducers: {&#10;    unload() {&#10;      return {...init()};&#10;    }&#10;  }&#10;};&#10;" description="initModel" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="fileRelativePath()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
