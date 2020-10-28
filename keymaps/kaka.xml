@@ -183,7 +183,9 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="p" />
   </action>
-  <action id="Vcs.RollbackChangedLines" />
+  <action id="Vcs.RollbackChangedLines">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="t" />
+  </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="l" />
   </action>
