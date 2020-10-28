@@ -46,12 +46,16 @@
   </action>
   <action id="CopyReference" />
   <action id="Diagram.DeselectAll" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DumpLookupElementWeights" />
   <action id="Editor EditorTranslateAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="g" />
   </action>
   <action id="Editor ShowTranslationDialogAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="f" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -174,6 +178,7 @@
   <action id="ToggleBookmarkWithMnemonic">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
+  <action id="Uml.ShowDiff" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="u" />
   </action>
