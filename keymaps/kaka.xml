@@ -158,9 +158,7 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
-  <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
+  <action id="ShowBookmarks" />
   <action id="ShowSettings" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="h" />
@@ -169,6 +167,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="v" />
   </action>
   <action id="Stop" />
+  <action id="StringManipulation.ShiftQuote">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
@@ -193,6 +194,9 @@
   </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="l" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="tasks.close">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" second-keystroke="r" />
