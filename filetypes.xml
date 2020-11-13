@@ -14,6 +14,7 @@
       <mapping pattern="NursingOrderTable.js" type="TypeScript" />
       <mapping ext="bak" type="TypeScript" />
       <mapping pattern="threeYear" type="YAML" />
+      <mapping ext="back" type="YAML" />
       <removed_mapping pattern="ELSelector.jsx" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="CdcDescriptionList.js" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
