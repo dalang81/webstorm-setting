@@ -158,7 +158,9 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
-  <action id="ShowBookmarks" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="ShowSettings" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="h" />
@@ -167,9 +169,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="v" />
   </action>
   <action id="Stop" />
-  <action id="StringManipulation.ShiftQuote">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
