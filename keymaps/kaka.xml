@@ -169,6 +169,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="v" />
   </action>
   <action id="Stop" />
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
