@@ -1,9 +1,11 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
+      <mapping pattern="ReportCardAuthModel.jsx" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
@@ -16,9 +18,9 @@
       <mapping pattern="threeYear" type="YAML" />
       <mapping ext="back" type="YAML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="sql" approved="true" type="OdpsQL" />
-      <removed_mapping pattern="CdcDescriptionList.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="ELSelector.jsx" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="CdcDescriptionList.js" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="sql" approved="true" type="OdpsQL" />
     </extensionMap>
   </component>
 </application>
