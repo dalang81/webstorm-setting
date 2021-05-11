@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Faiure" />
       <item value="倒计时" />
       <item value="orgin" />
       <item value="organ" />
@@ -25,6 +26,7 @@
       <map>
         <entry key="CHINESE" value="15" />
         <entry key="ENGLISH" value="15" />
+        <entry key="CATALAN" value="1" />
       </map>
     </option>
   </component>
