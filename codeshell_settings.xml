@@ -1,0 +1,3 @@
+<application>
+  <component name="CodeShellSettings" CPU_RADIO_BUTTON_ENABLED="true" GPU_RADIO_BUTTON_ENABLED="false" SERVER_ADDRESS_URL="http://127.0.0.1:8080" SAYT_ENABLED="false" TAB_ACTION="ALL" COMPLETION_MAX_TOKENS="MEDIUM" CHAT_MAX_TOKENS="MEDIUM" />
+</application>

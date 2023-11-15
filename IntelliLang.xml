@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="xml">
+      <display-name>nz-drawer/@[nzVisible]</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().matches("[nzVisible]")).withParent(xmlTag().withLocalName(string().equalTo("nz-drawer")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>nz-drawer/@[nzVisible]</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().matches("[nzVisible]")).withParent(xmlTag().withLocalName(string().equalTo("nz-drawer")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
