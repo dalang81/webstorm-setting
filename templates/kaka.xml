@@ -54,4 +54,34 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="trace" value="console.trace('$className$ $methodName$ $clip$ $END$', $clip$)" description="trace" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="//  debug-todo  $END$ $date$ $time$ " description="debug-todo" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="sync" value="// 🧷: sync local  $END$ $date$ $time$ " description="sync-todo" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>

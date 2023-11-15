@@ -15,6 +15,9 @@
   <action id="AssociateWithFileType">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="Bito.OpenBitoPanel">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" second-keystroke="b" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="c" />
   </action>
@@ -91,6 +94,7 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="FindNext" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" second-keystroke="b" />
   </action>
@@ -126,7 +130,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt e" second-keystroke="v" />
   </action>
   <action id="InvalidateCaches">
-    <keyboard-shortcut first-keystroke="shift ctrl alt f6" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" second-keystroke="delete" />
   </action>
   <action id="MarkExcludeRoot">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" second-keystroke="e" />
@@ -169,11 +173,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="v" />
   </action>
   <action id="Stop" />
-  <action id="StringManipulation.SwitchStyleAction">
-    <keyboard-shortcut first-keystroke="shift alt u" />
+  <action id="StringManipulation.ShiftQuote">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="s" />
   </action>
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
+  </action>
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl alt z" />

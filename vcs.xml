@@ -8,7 +8,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://git.lilianinfo.com" />
-          <option name="userName" value="wukai@lilianinfo.com" />
+          <option name="userName" value="yangfei" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://git.lilianinfo.com:10080" />
@@ -22,12 +22,12 @@
     </option>
   </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="COLUMN_ORDER">
+    <option name="COLUMN_ID_ORDER">
       <list>
-        <option value="0" />
-        <option value="1" />
-        <option value="2" />
-        <option value="3" />
+        <option value="Default.Root" />
+        <option value="Default.Subject" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
       </list>
     </option>
   </component>

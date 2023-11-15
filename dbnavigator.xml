@@ -1,7 +1,22 @@
 <application>
+  <component name="DBNavigator.Application.FileTypeService">
+    <original-file-types>
+      <mapping file-extension="ddl" file-type="OdpsQL" />
+    </original-file-types>
+  </component>
+  <component name="DBNavigator.Application.PluginConflictManager">
+    <file-types-claimed value="true" />
+  </component>
   <component name="DBNavigator.Application.Settings">
-    <enable-debug-mode value="false" />
-    <enable-developer-mode value="false" />
+    <diagnostics>
+      <developer-mode>
+        <timeout value="10" />
+        <enabled value="false" />
+      </developer-mode>
+      <debug-logging failsafe-errors="false" database-access="false" database-resource="false" />
+      <database-lag enabled="false" connectivity="2000" querying="2000" fetching="500" />
+      <miscellaneous dialog-sizing-reset="false" bulk-actions-enabled="false" background-disposer-disabled="false" timeout-handling-disabled="false" />
+    </diagnostics>
     <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="DBNavigator.DefaultProject.Settings">
@@ -46,6 +61,7 @@
         <object-type name="FUNCTION" sorting-type="NAME" />
         <object-type name="PROCEDURE" sorting-type="NAME" />
         <object-type name="ARGUMENT" sorting-type="POSITION" />
+        <object-type name="TYPE ATTRIBUTE" sorting-type="POSITION" />
       </sorting>
       <default-editors>
         <object-type name="VIEW" editor-type="SELECTION" />
@@ -64,8 +80,6 @@
           <object-type name="TABLE" enabled="true" />
           <object-type name="VIEW" enabled="true" />
           <object-type name="MATERIALIZED VIEW" enabled="true" />
-          <object-type name="NESTED TABLE" enabled="false" />
-          <object-type name="COLUMN" enabled="false" />
           <object-type name="INDEX" enabled="true" />
           <object-type name="CONSTRAINT" enabled="true" />
           <object-type name="DATASET TRIGGER" enabled="true" />
@@ -76,8 +90,6 @@
           <object-type name="FUNCTION" enabled="true" />
           <object-type name="PACKAGE" enabled="true" />
           <object-type name="TYPE" enabled="true" />
-          <object-type name="TYPE ATTRIBUTE" enabled="false" />
-          <object-type name="ARGUMENT" enabled="false" />
           <object-type name="DIMENSION" enabled="false" />
           <object-type name="CLUSTER" enabled="false" />
           <object-type name="DBLINK" enabled="true" />
@@ -96,11 +108,11 @@
         <nulls-first value="true" />
         <max-sorting-columns value="4" />
       </sorting>
-      <tracking-columns>
-        <columnNames value="" />
+      <audit-columns>
+        <column-names value="" />
         <visible value="true" />
         <editable value="false" />
-      </tracking-columns>
+      </audit-columns>
     </dataset-grid-settings>
     <dataset-editor-settings>
       <text-editor-popup>
@@ -139,9 +151,6 @@
           <content-type name="JavaScript" enabled="true" />
           <content-type name="JSON" enabled="true" />
           <content-type name="JSON5" enabled="true" />
-          <content-type name="JSP" enabled="true" />
-          <content-type name="JSPx" enabled="true" />
-          <content-type name="ASP" enabled="true" />
           <content-type name="YAML" enabled="true" />
         </content-types>
       </qualified-text-editor>
