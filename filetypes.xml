@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".env.*" type="Env File" />
       <mapping ext="env" type="Env File" />
+      <mapping ext="wxml" type="HTML" />
       <mapping ext="odpsql" type="OdpsQL" />
       <mapping ext="q" type="OdpsQL" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
